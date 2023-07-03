@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/6557706.png</file>
+        <file>img/adjunto-archivo.png</file>
+        <file>img/archivo.png</file>
+        <file>img/ayuda.png</file>
+        <file>img/ayudar.png</file>
+        <file>img/blogging.png</file>
+        <file>img/carpeta.png</file>
+        <file>img/copia.png</file>
+        <file>img/cortar.png</file>
+        <file>img/disquete.png</file>
+        <file>img/eliminar.png</file>
+        <file>img/pegar.png</file>
+        <file>img/anadir.png</file>
+    </qresource>
+</RCC>

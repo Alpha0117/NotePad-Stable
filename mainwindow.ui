@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>493</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Blog de Notas</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Icons.qrc">
+    <normaloff>:/img/img/blogging.png</normaloff>:/img/img/blogging.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPlainTextEdit" name="plainTextEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionNuevo"/>
+    <addaction name="actionNueva_ventana"/>
+    <addaction name="actionAbrir"/>
+    <addaction name="actionGuardar"/>
+    <addaction name="actionGuardar_como"/>
+    <addaction name="actionSalir"/>
+    <addaction name="separator"/>
+    <addaction name="actionGestor_de_Archivos"/>
+   </widget>
+   <widget class="QMenu" name="menuEditar">
+    <property name="title">
+     <string>Editar</string>
+    </property>
+    <addaction name="actionCortar"/>
+    <addaction name="actionCopiar"/>
+    <addaction name="actionPegar"/>
+    <addaction name="actionEliminar"/>
+   </widget>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="actionAyuda"/>
+    <addaction name="actionCC"/>
+    <addaction name="actionBy"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuEditar"/>
+   <addaction name="menuAyuda"/>
+  </widget>
+  <action name="actionNuevo">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/img/archivo.png</normaloff>:/img/img/archivo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nuevo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionNueva_ventana">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/img/anadir.png</normaloff>:/img/img/anadir.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nueva ventana</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+N</string>
+   </property>
+  </action>
+  <action name="actionAbrir">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/img/carpeta.png</normaloff>:/img/img/carpeta.png</iconset>
+   </property>
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionGuardar_como">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/img/disquete.png</normaloff>:/img/img/disquete.png</iconset>
+   </property>
+   <property name="text">
+    <string>Guardar como...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionCortar">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/img/cortar.png</normaloff>:/img/img/cortar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cortar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionCopiar">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/img/copia.png</normaloff>:/img/img/copia.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copiar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPegar">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/img/pegar.png</normaloff>:/img/img/pegar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pegar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionEliminar">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/img/eliminar.png</normaloff>:/img/img/eliminar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Eliminar</string>
+   </property>
+   <property name="shortcut">
+    <string>Del</string>
+   </property>
+  </action>
+  <action name="actionAyuda">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/img/ayudar.png</normaloff>:/img/img/ayudar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ayuda</string>
+   </property>
+  </action>
+  <action name="actionCC">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/img/6557706.png</normaloff>:/img/img/6557706.png</iconset>
+   </property>
+   <property name="text">
+    <string>CC</string>
+   </property>
+  </action>
+  <action name="actionBy">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/img/ayuda.png</normaloff>:/img/img/ayuda.png</iconset>
+   </property>
+   <property name="text">
+    <string>By...</string>
+   </property>
+  </action>
+  <action name="actionGestor_de_Archivos">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/img/img/adjunto-archivo.png</normaloff>:/img/img/adjunto-archivo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Gestor de Archivos</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
