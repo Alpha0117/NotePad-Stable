@@ -1,0 +1,54 @@
+Manual de Usuario del Gestor de Archivos
+Introducción El Gestor de Archivos es una aplicación que te permite administrar y organizar tus archivos y carpetas de manera eficiente. Con esta herramienta, podrás realizar diversas operaciones, como crear, eliminar, copiar, mover y buscar archivos. Este manual te guiará a través de las funcionalidades principales del Gestor de Archivos para que puedas aprovechar al máximo esta aplicación.
+Requisitos del Sistema Antes de utilizar el Gestor de Archivos, asegúrate de cumplir con los siguientes requisitos del sistema:
+Sistema operativo: Windows 10, macOS o Linux
+Espacio en disco suficiente para almacenar la aplicación y los archivos gestionados
+Conexión a Internet (solo para actualizaciones y descargas adicionales, si es necesario)
+Instalación Sigue estos pasos para instalar el Gestor de Archivos en tu sistema:
+Descarga el archivo de instalación desde el sitio web oficial del Gestor de Archivos.
+Ejecuta el archivo de instalación y sigue las instrucciones en pantalla para completar el proceso de instalación.
+Una vez finalizada la instalación, podrás iniciar el Gestor de Archivos desde el menú de aplicaciones o el escritorio, según corresponda.
+Interfaz de Usuario Al iniciar el Gestor de Archivos, se mostrará la ventana principal con una interfaz intuitiva y fácil de usar. A continuación, se describen los elementos principales de la interfaz:
+Área de Visualización: Muestra la estructura de archivos y carpetas en forma de árbol. Aquí podrás explorar y navegar por tu sistema de archivos.
+Botón "Buscar": Permite buscar archivos y carpetas específicos en la estructura jerárquica.
+Botón "Nueva Carpeta": Crea una nueva carpeta en la ubicación actual.
+Botón "Eliminar": Elimina el archivo o carpeta seleccionado.
+Botón "Copiar": Crea una copia del archivo o carpeta seleccionado.
+Botón "Mover": Mueve el archivo o carpeta seleccionado a otra ubicación.
+Botón "Salir": Cierra la aplicación Gestor de Archivos.
+
+
+
+
+Funcionalidades del gestor de archivos: 
+Actualización automática: La ventana tiene la capacidad de monitorear cambios en la carpeta y actualizar automáticamente el contenido mostrado en el árbol de archivos. 
+Búsqueda de archivos: Permite al usuario buscar y seleccionar archivos de texto en la carpeta.
+Modificación de nombres de archivo: Permite al usuario modificar el nombre de un archivo seleccionado en el QListWidget. 
+Eliminación de archivos: Permite al usuario eliminar un archivo seleccionado en el QListWidget. 
+Guardar cambios: Permite al usuario guardar los cambios realizados en el nombre de un archivo.
+Salir: Cierra la ventana del Gestor de archivos.
+Secciones y contenido de la ventana: Árbol de archivos (QTreeWidget): Muestra la estructura de archivos y carpetas en la ubicación especificada. Se actualiza automáticamente cuando se realizan cambios en la carpeta.
+Botón "Buscar": Abre un cuadro de diálogo para que el usuario pueda buscar y seleccionar archivos de texto en la carpeta.
+Botón "Modificar": Permite al usuario modificar el nombre del archivo seleccionado en el QListWidget.
+Botón "Borrar": Elimina el archivo seleccionado en el QListWidget. Botón "Guardar": Guarda los cambios realizados en el nombre de un archivo.
+Botón "Salir": Cierra la ventana del Gestor de archivos. Botones y funciones asociadas:
+on_btnBuscar_clicked():Función asociada al botón "Buscar". Abre un cuadro de diálogo para que el usuario pueda seleccionar un archivo de texto en la carpeta.
+on_btnModificar_clicked(): Función asociada al botón "Modificar". Permite al usuario modificar el nombre del archivo seleccionado en el QListWidget.
+on_btnBorrar_clicked(): Función asociada al botón "Borrar". Elimina el archivo seleccionado en el QListWidget.
+on_btnGuardar_clicked(): Función asociada al botón "Guardar". Guarda los cambios realizados en el nombre del archivo.
+on_btnSallir_clicked(): Función asociada al botón "Salir". Cierra la ventana del Gestor de archivos. 
+
+
+
+El código proporcionado también incluye otras funciones y variables para realizar operaciones como actualizar el QTreeWidget, agregar archivos y carpetas al árbol, obtener rutas de archivos y carpetas, monitorear cambios en la carpeta, entre otros. 
+Es importante tener en cuenta que el código presentado es solo una parte de la implementación del Gestor de archivos y puede haber otras secciones, funcionalidades y botones que no están incluidos en el código proporcionado. Para comprender completamente el funcionamiento del Gestor de archivos, es necesario analizar y comprender el código completo de la aplicación.
+
+
+Solución de Problemas Si encuentras algún problema o error mientras utilizas el Gestor de Archivos, sigue estos pasos para solucionarlo:
+Verifica que tu sistema cumpla con los requisitos mínimos del sistema mencionados anteriormente.
+Asegúrate de tener los permisos adecuados para acceder a los archivos y carpetas.
+Actualiza el Gestor de Archivos a la última versión disponible desde el sitio web oficial.
+Reinicia la aplicación y vuelve a intentar la operación problemática.
+Si el problema persiste, comunícate con el soporte técnico del Gestor de Archivos para recibir asistencia adicional.
+Espero que este manual de usuario te ayude a utilizar el Gestor de Archivos de manera efectiva. Si tienes alguna otra pregunta, no dudes en hacerla.
+
